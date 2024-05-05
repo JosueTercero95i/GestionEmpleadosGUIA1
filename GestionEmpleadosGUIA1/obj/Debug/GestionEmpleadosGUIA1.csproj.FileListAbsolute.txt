@@ -1,0 +1,7 @@
+C:\Users\PC\source\repos\GestionEmpleadosGUIA1\GestionEmpleadosGUIA1\bin\Debug\GestionEmpleadosGUIA1.exe.config
+C:\Users\PC\source\repos\GestionEmpleadosGUIA1\GestionEmpleadosGUIA1\bin\Debug\GestionEmpleadosGUIA1.exe
+C:\Users\PC\source\repos\GestionEmpleadosGUIA1\GestionEmpleadosGUIA1\bin\Debug\GestionEmpleadosGUIA1.pdb
+C:\Users\PC\source\repos\GestionEmpleadosGUIA1\GestionEmpleadosGUIA1\obj\Debug\GestionEmpleadosGUIA1.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\GestionEmpleadosGUIA1\GestionEmpleadosGUIA1\obj\Debug\GestionEmpleadosGUIA1.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\GestionEmpleadosGUIA1\GestionEmpleadosGUIA1\obj\Debug\GestionEmpleadosGUIA1.exe
+C:\Users\PC\source\repos\GestionEmpleadosGUIA1\GestionEmpleadosGUIA1\obj\Debug\GestionEmpleadosGUIA1.pdb
