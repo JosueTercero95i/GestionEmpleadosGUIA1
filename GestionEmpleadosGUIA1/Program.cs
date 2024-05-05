@@ -21,7 +21,31 @@ namespace GestionEmpleadosGUIA1
                 empleado.MostrarDetalles();
             }
 
-            Console.ReadLine(); 
+            // Número de empleado al que se cambiará el estado
+            int NumeroEmpleadosCambiarEstado = 103;
+
+            Empleado EmpleadoCambiarEstado = Empleado.BuscarEmpleado(ListaEmpleados, NumeroEmpleadosCambiarEstado);
+
+            // Verificar si se encontró el empleado
+            if (EmpleadoCambiarEstado != null)
+            {
+                EmpleadoCambiarEstado.CambiarEstado(true);
+
+                EmpleadoCambiarEstado.MostrarDetalles();
+            }
+            else
+            {
+                // Si el empleado no se encuentra, mostrar un mensaje de error
+                Console.WriteLine($"Empleado con número {NumeroEmpleadosCambiarEstado} no encontrado.");
+            }
+
+            // Aumentar el salario de un empleado por un cierto porcentaje
+            int NumeroEmpleadoAumentoSalario = 101; 
+            double Porcentaje = 10; 
+
+            Empleado.BuscarEmpleado(ListaEmpleados, NumeroEmpleadoAumentoSalario)?.Aumento(ListaEmpleados, NumeroEmpleadoAumentoSalario, Porcentaje);
+
+            Console.ReadLine();
         }
     }
 }
